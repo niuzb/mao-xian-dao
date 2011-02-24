@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">冒险岛</string>
+<string name="change_level">切换关数</string>
+<string name="test_animation">测试动画</string>
+<string name="test_diary">测试日记 </string>
+<string name="unlock_levels">解锁所用关数</string>
+<string name="unlock_next_level">解锁下一关 </string>
+<string name="method_tracing">开关方法跟踪 </string>
+
+<string name = "game_over">游戏结束 </string>
+<string name = "thanks_for_playing">谢谢!</string>
+<string name = "please_wait">请稍候</string>
+
+
+<!-- UI -->
+<string name="preference_save_game">游戏数据</string>
+<string name="preference_erase_save_game">清除保存的游戏 </string>
+<string name="preference_erase_save_game_dialog">真的删除已保存的游戏？你的进展都将丢失!</string>
+<string name="preference_erase_save_game_dialog_title">等待</string>
+<string name="preference_erase_save_game_dialog_ok">清除保存</string>
+<string name="preference_erase_save_game_dialog_cancel">取消 </string>
+
+
+<string name="preference_game_settings">游戏设置</string>
+<string name="preference_enable_sound">启用声音</string>
+<string name="preference_enable_sound_summary">禁用声音可能会改善一些设备的性能</string>
+
+<string name="preference_safe_mode">安全模式</string>
+<string name="preference_safe_mode_summary">如果你手机不能运行,请启用它,但可能有一些画面缺陷</string>
+
+<string name="preference_configure_controls">控制设置</string>
+<string name="preference_enable_click_attack">攻击</string>
+<string name="preference_enable_click_attack_summary">使用轨迹球或方向键中键攻击</string>
+<string name="preference_enable_screen_controls">屏幕控制</string>
+<string name="preference_enable_screen_controls_summary">显示在屏幕上的按钮</string>
+
+<string name="preference_enable_tilt_controls">重力感应</string>
+<string name="preference_enable_tilt_controls_summary">用重力感应控制</string>
+
+<string name="preference_movement_sensitivity">运动灵敏度</string>
+<string name="preference_movement_sensitivity_summary">调节轨迹球,dpad,或光学传感器的灵敏度</string>
+<string name="preference_movement_min">慢 </string>
+<string name="preference_movement_max">快</string>
+
+<string name="preference_tilt_sensitivity">重力感应</string>
+<string name="preference_tilt_sensitivity_summary">调整倾斜控制灵敏度</string>
+<string name="preference_tilt_min">慢</string>
+<string name="preference_tilt_max">快</string>
+
+<string name="preference_key_config">键盘设置</string>
+<string name="preference_key_config_summary">自定义硬键盘手机按键,</string>
+<string name="preference_key_config_dialog_title">配置键盘</string>
+<string name="preference_key_config_dialog_ok">保存</string>
+<string name="preference_key_config_dialog_cancel">取消</string>
+<string name="preference_key_config_left">左</string>
+<string name="preference_key_config_right">右</string>
+<string name="preference_key_config_jump">跳</string>
+<string name="preference_key_config_attack">攻击</string>
+
+
+<string name="preference_enable_statistics">提交统计报告</string>
+<string name="preference_enable_statistics_summary">发送匿名统计信息到服务器,以帮助我们使这个游戏更加有趣,</string>
+
+
+<string name="preference_about">关于</string>
+<string name="preference_about_title">关于冒险岛</string>
+<string name="preference_about_summary">冒险岛是在Chris Pruett和Genki Mine作品基础上修改完成,遵循GPL协议，如需源码，请联系niuzb1@gmail.com</string>
+<string name="preference_visit_site">转到冒险岛网站 </string>
+<string name="preference_thanks_title">感谢</string>
+<string name="preference_thanks_summary">感谢张春玲,Eido Inoue, Casey Richardson等人</string>
+<string name="preference_licence_title">许可证</string>
+<string name="preference_licence_summary">这个游戏的某些部分基于共同创建和修改工作由谷歌和使用按照知识共享署名3,0许可所述条款,</string>
+<string name="preference_misc">更多信息</string>
+<string name="preference_enable_debug">调试日志 </string>
+<string name="preference_enable_debug_summary">输出各种日志logcat</string>
+
+<string name="game_results_title">结果</string>
+<string name="game_results_pearls_collected">搜集珍珠:</string>
+<string name="game_results_robots_destroyed">销毁机器人:</string>
+<string name="game_results_total_play_time">时间:</string>
+<string name="game_results_ending">完成:</string>
+<string name="game_results_unlocks_message">你可以使用菜单选择顺序模式或者关数选择!</string>
+<string name="game_results_kabocha_ending">失败#1 - 卡布 胜</string>
+<string name="game_results_rokudou_ending">失败#2 - 酷豆 胜</string>
+<string name="game_results_wanda_ending">好棒- 已保存!</string>
+<string name="game_results_ok_button">游戏结束!</string>
+
+<string name="saved_game_erased_notification">删除保存的记录</string>
+
+<string name="quit_game_dialog_title">退出游戏?</string>
+<string name="quit_game_dialog_ok">退出</string>
+<string name="quit_game_dialog_cancel">取消</string>
+<string name="quit_game_dialog_message">返回主菜单?</string>
+
+<string name="new_game_dialog_title">开始新游戏?</string>
+<string name="new_game_dialog_ok">开始新游戏</string>
+<string name="new_game_dialog_cancel">取消</string>
+<string name="new_game_dialog_message">在这种模式下启动一个新的游戏会消除你目前的游戏进度,你确定要开始一个新游戏?</string>
+
+<string name="extras_locked_dialog_title">额外的锁定!</string>
+<string name="extras_locked_dialog_ok">开始吧!</string>
+<string name="extras_locked_dialog_message">这个功能仍在锁定,赢得游戏,才能解开!</string>
+
+
+<string name="nav_type">轨迹球</string>
+
+<string name="whats_new_dialog_title">冒险岛</string>
+<string name="whats_new_dialog_ok">开始!</string>
+<string name="whats_new_dialog_message">感谢您下载</string>
+
+<string name="control_setup_dialog_title">控制设置 </string>
+<string name="control_setup_dialog_ok">保持不变</string>
+<string name="control_setup_dialog_change">变更控制</string>
+<string name="control_setup_dialog_message">
+根据硬件基础,下面的控制方案已自动选择
+&lt;br>
+&lt;br>
+&lt;small>%1s&lt;/small>
+&lt;br>
+&lt;br>冒险岛支持各种控制,你可以在菜单中改变它,
+&lt;br>
+&lt;br>
+你想改变控制吗?</string>
+<string name="control_setup_dialog_trackball">&lt;b>轨迹球&lt;/b> - 可在菜单中调节敏感度,</string>
+<string name="control_setup_dialog_dpad">&lt;b>键盘&lt;/b> - 可调节按键,</string>
+<string name="control_setup_dialog_screen">&lt;b>屏幕按键控制&lt;/b></string>
+<string name="control_setup_dialog_tilt">&lt;b>重力感应&lt;/b> - 在菜单中调节敏感度,</string> 
+
+<string name="onscreen_tilt_dialog_title">新型控制!</string>
+<string name="onscreen_tilt_dialog_ok">屏幕按键</string>
+<string name="onscreen_tilt_dialog_cancel">重力感应</string>
+<string name="onscreen_tilt_dialog_message">这个版本增加屏幕按键控制
+</string>
+
+<string name="whats_new_ticker">New in this version: On-screen controls, app-to-sd card support, unlockable extra modes, game statistics after winning, lots of minor (and not so minor) bugs fixed,</string>
+
+<string name="baby_description">简单,</string>
+<string name="kids_description">正常,</string>
+<string name="adults_description">纯爷们,</string>
+
+
+<!-- Toast Messages -->
+<string name="memory_playback_start">开始播放记忆</string>
+<string name="memory_playback_complete">结束播放记忆</string>
+<string name = "diary_found">发现旧日记 </string>
+
+
+<!--  names -->
+<string name = "Wanda">婉妲</string>
+<string name = "Kyle">凯尔</string>
+<string name = "Kabocha">卡布博士</string>
+<string name = "Rokudou">酷豆先生</string>
+<string name = "Android">机器人</string>
+
+<!-- level names -->
+<string name = "level_0_1_sewer">记忆 #000</string>
+<string name = "level_0_2_lab">记忆 #001</string>
+<string name = "level_0_3_lab">记忆 #002</string>
+
+<string name = "level_1_1_island">记忆 #003</string>
+<string name = "level_1_2_island">记忆 #004</string>
+<string name = "level_1_3_island">记忆 #005</string>
+<string name = "level_1_4_island">记忆 #006</string>
+<string name = "level_1_5_island">记忆 #007</string>
+<string name = "level_1_6_island">记忆 #008</string>
+<string name = "level_1_7_island">记忆 #009</string>
+<string name = "level_1_8_island">记忆 #010</string>
+<string name = "level_1_9_island">记忆 #011</string>
+
+<string name = "level_2_1_grass">记忆 #012</string>
+<string name = "level_2_2_grass">记忆 #013</string>
+<string name = "level_2_3_grass">记忆 #014</string>
+<string name = "level_2_4_grass">记忆 #015</string>
+<string name = "level_2_5_grass">记忆 #016</string>
+<string name = "level_2_6_grass">记忆 #017</string>
+<string name = "level_2_7_grass">记忆 #018</string>
+<string name = "level_2_8_grass">记忆 #019</string>
+<string name = "level_2_9_grass">记忆 #020</string>
+
+<string name = "level_3_1_sewer">记忆 #021</string>
+<string name = "level_3_2_sewer">记忆 #022</string>
+<string name = "level_3_3_sewer">记忆 #023</string>
+<string name = "level_3_4_sewer">记忆 #024</string>
+<string name = "level_0_1_sewer_kyle">记忆 #024,3</string>
+<string name = "level_0_1_sewer_wanda">记忆 #024,7</string>
+<string name = "level_3_5_sewer">记忆 #025</string> <!-- 3-5 is the first level to take place in the "present" -->
+<string name = "level_3_6_sewer">记忆 #026</string>
+<string name = "level_3_7_sewer">记忆 #027</string>
+<string name = "level_3_8_sewer">记忆 #028</string>
+<string name = "level_3_9_sewer">记忆 #029</string>
+<string name = "level_3_10_sewer">记忆 #030</string>
+<string name = "level_3_11_sewer">记忆 #030,5</string> <!-- Special level for Kyle fight -->
+
+<string name = "level_4_1_underground">记忆 #031</string>
+<string name = "level_4_2_underground">记忆 #032</string>
+<string name = "level_4_3_underground">记忆 #033</string>
+<string name = "level_4_4_underground">记忆 #034</string>
+<string name = "level_4_5_underground">记忆 #035</string>
+<string name = "level_4_6_underground">记忆 #036</string>
+<string name = "level_4_7_underground">记忆 #037</string>
+<string name = "level_4_8_underground">记忆 #038</string>
+<string name = "level_4_9_underground">记忆 #039</string>
+
+<string name = "level_final_boss_lab">记忆 #040</string>
+
+<string name = "level_puzzle_test">益智测试</string>
+<string name = "level_object_test">对象测试</string>
+<string name = "level_performance_test">性能测试</string>
+<string name = "level_performance_test2">性能测试2</string>
+<string name = "level_performance_test3">性能测试3</string>
+<string name = "level_performance_test4">谷歌IO性能测试</string>
+<string name = "level_npc_motion_test">NPC 动作测试</string>
+
+<!-- Level time codes -->
+
+<!-- level names -->
+<string name = "level_0_1_time">+ 07:12:03</string>
+<string name = "level_0_2_time">+ 00:00:00</string>
+<string name = "level_0_3_time">+ 00:06:26</string>
+
+<string name = "level_1_1_time">+ 00:34:10</string>
+<string name = "level_1_2_time">+ 00:44:46</string>
+<string name = "level_1_3_time">+ 00:52:16</string>
+<string name = "level_1_4_time">+ 00:59:01</string>
+<string name = "level_1_5_time">+ 01:07:24</string>
+<string name = "level_1_6_time">+ 01:23:38</string>
+<string name = "level_1_7_time">+ 01:38:04</string>
+<string name = "level_1_8_time">+ 01:42:00</string>
+<string name = "level_1_9_time">+ 01:56:44</string>
+
+<string name = "level_2_1_time">+ 02:25:18</string>
+<string name = "level_2_2_time">+ 02:37:20</string>
+<string name = "level_2_3_time">+ 02:40:13</string>
+<string name = "level_2_4_time">+ 02:51:09</string>
+<string name = "level_2_5_time">+ 03:01:55</string>
+<string name = "level_2_6_time">+ 03:16:28</string>
+<string name = "level_2_7_time">+ 03:33:12</string>
+<string name = "level_2_8_time">+ 03:46:07</string>
+<string name = "level_2_9_time">+ 03:54:29</string>
+
+<string name = "level_3_1_time">+ 04:07:10</string>
+<string name = "level_3_2_time">+ 04:18:42</string>
+<string name = "level_3_3_time">+ 04:45:15</string>
+<string name = "level_3_4_time">+ 04:59:06</string>
+<string name = "level_3_5_time">+ 07:19:59</string>
+<string name = "level_3_6_time">+ 07:36:17</string>
+<string name = "level_3_7_time">+ 07:51:24</string>
+<string name = "level_3_8_time">+ 08:16:55</string>
+<string name = "level_3_9_time">+ 08:35:12</string>
+<string name = "level_3_10_time">+ 08:50:36</string>
+<string name = "level_3_11_time">+ 08:55:54</string>
+
+<string name = "level_4_1_time">+ 09:10:01</string>
+<string name = "level_4_2_time">+ 09:42:40</string>
+<string name = "level_4_3_time">+ 09:58:11</string>
+<string name = "level_4_4_time">+ 10:27:36</string>
+<string name = "level_4_5_time">+ 10:52:10</string>
+<string name = "level_4_6_time">+ 11:12:35</string>
+<string name = "level_4_7_time">+ 11:39:04</string>
+<string name = "level_4_8_time">+ 11:57:22</string>
+<string name = "level_4_9_time">+ 12:13:40</string>
+<string name = "level_final_boss_time">+ 12:45:12</string>
+<string name = "level_test_time">(test level)</string>
+
+<!--  diary entries -->
+
+<string name="Diary1">
+日志 - 周四 - 晴\n
+我已经到达!  我从货轮借了小艇划到岛的岸边,  船长答应我在两个星期后来接我,让我有足够多的时间来完成使命\n
+\n
+\n
+我发现自己站在一个巨大的海滩中间,绵延下来的海岸线和热带森林的绿色出现在地平线附近,不知情的人会觉得这里是天堂,我不禁惊叹于岛上的自然之美,\n
+</string>
+
+<string name="Diary2">
+日志 - 周天 - 晴\n
+在我离开大陆前,我与酷豆先生见了面,以了解我的使命,他是一个伟大的人,他认出了我相当独特的技能,我很高兴酷豆先生选择我来去访问这个荒岛,我不会让他失望,\n
+</string>
+
+<string name="Diary3">
+日志 - ??? - 天黑\n
+通过分析岛上一种像粘液样的生物, 岛上的生态系统视乎已经到了相当危险的地步,我尝试吃了一块标本,结果呕个不停,\n
+\n
+我本不该来这里,酷豆骗我来到这里,现在我什至不能找到回到地面的路,货轮肯定早已来了又走了,我正在迅速失去对时间的感觉,但我相信,两个多星期已经过去了,我到这地狱般的地方来了,我真不该来这里,\n
+</string>
+
+<string name="Diary4">
+日志 - 星期一 - 阴云密布\n
+今天我遇到了三人探险小组,我本以为只有我在岛上,我是如此惊讶地听到人类的声音,他们是和我一样是来探索这个小岛,他们表面上表现的很友好,但我能感受到空气中的竞争气氛,他们到这里已经一个月了,并已考查过几乎整个海滩森林,我很高兴能见到他们,但他们对我的使命不构成威胁,它们是很优秀的人,但我的技能远远超越他们,\n
+</string>
+
+<string name="Diary5">
+日志 - 星期六 - 雨\n
+雨已经连续下了三天,上周天气很好--海洋很平静,我精心构建的住所证明是不必要的,我坐在一个树洞里面,天空下着高尔夫球大小的雨,不停的落在我的周围,海滩离我是越来越远了,波涛声仿佛是我很久远的记忆,\n
+\n
+这是一个奇怪的地方,随着我向岛中心前进,古怪的事情越来越多,自从进入森林,我无法解释我所看到的一些事情,没关系,我的使命是明确的并且保证成功,今晚我会睡在这里,明天进一步向岛的中心进发,\n
+
+</string>
+
+<string name="Diary6">
+
+日志 - ??? - 湿\n
+为什么在一个热带岛屿的下面有下水道系统？岛上已经有一些类似古老欧洲的城市架构,但目的是什么？什么样的灵感造就了这个巨大的地下结构,也许是一张照片,或孩子的图画书,这个岛如此偏僻,本不可能有如此高的文明程度,\n
+\n
+当我离开这里,我要去找酷豆,纠正他这方面认识的错误,中心是越来越近了,但我不知道我是否还希望找到它了\n
+</string>
+
+<string name="Diary7">
+地底下不下雨!\n
+\n
+雨,雨,走开吧,改天再来,\n
+\n
+积重难返,\n
+
+</string>
+
+<string name="Diary8">
+日志 - 周三 - 阴\n
+我已经找到了进入森林的路径,森林延伸尽头似乎是一个小空地,如果我的计算正确,现在是这个岛上一年中太阳光最少的时候,所以我期望森林植被不会太高,可以更容易的通过,\n
+\n
+我前几天遇到的那几个人早一个月就到这里了,但他们还没有想通这一点,我的智商确实很高-我可以理解为什么酷豆先生选择我完成这个任务,一旦我发现那个源,并知道如何使用它,他一定会让我当第二执行长,那我就会有难以置信的影响力,一想到这就让我高兴,我一定要超越自己,\n
+</string>
+
+<string name="Diary9">
+皮肤 皮肤 皮肤 皮肤 皮肤 皮肤,\n
+\n
+这里没有足够的皮肤在那些海盗上!\n
+</string>
+
+<string name="Diary10">
+日志 - 周一(?) - 雨\n
+我的进度由于这个岛上可怕的生物的扰乱而减慢了,他们有些很平常,可能在岛生成生就已移居到此,但其余的显然是那个源作用下的产品,他们没有丝毫相似,这个岛就像是整个世界的一个缩影,从一无所有向每一个方向发芽,扭曲,所有这一切那是那个源引起的,\n
+\n
+但如果合理使用,这种能量可发挥很大的用处!人类的未来可以在我们的手中塑造,那将意味着战争和贫困的真正结束, 酷豆希望拥有这种力量- 我想拥有这种权力,世界可以从各国政府和只追求压迫和破坏的寄生虫中释放发来,这种荣耀太给力了\n
+</string>
+
+<string name="Diary11">
+日志 - 我已经失去了追踪的日期 - 暴雨\n
+\n
+我遇到的冒险家都死了,我发现他们挂在附近森林里的树挂岩石上,这一发现令人吃惊和难过,虽然我们都为同一个目标竞争,但我觉得他们是好同志,他们是岛上唯一的人类\n
+\n
+虽然悲惨,我不能让他们的不幸转移了我的注意,尸体附近的岩石是一个重要发现,它似乎是某种洞穴,然而,最令人兴奋的是,岩石本身看起来好像已被人切割,我敢说,它类似于地铁站或掩体入口\n
+\n
+我会在进入山洞前冒险再次进入森林,在基地我还保存有备用电池和其他实用的电子设备,一旦我有了这些新器件,回让我重回青春\n
+</string>
+
+<string name="Diary12">
+日志 - 未知 - 地下\n
+\n
+我头疼,也许是这里的油烟引起的,我觉得我的头塞满了压力,很快就会破灭,当疼痛变得糟糕时,我坐下来,专注于数质数,一个童年就养成的放松的习惯\n
+\n
+当我找到了源,我会用它来治疗自己的一切,如果酷豆抱怨,那么或许我会让他离开星球,毕竟,他不是到这个下水道,忍受一阵阵剧烈头痛的人,他不是几天不进食还要四处走动的那个人,都是我做的工作,所以我应该得到奖励,源将是我的,我一人的,\n
+\n
+2, 3, 5, 7, 11, 13, 17, 19, 23, 29\n
+
+</string>
+
+<string name="Diary13">
+他撒谎了,酷豆是个骗子,他只寻求控制,他说他希望利用源拯救世界,彻底摆脱肥猫,他就是肥猫,他将得不到源,它应是我的,73,79,83,89,97,101,103,107,109,113\n
+\n
+源在这里,是在这儿,在黑暗中,我能感觉到它的热量,就像阳光的温暖,但不行,我不能去拿,如果我找到它,酷豆会从我这儿夺走,不,卡布我是谨慎的, 卡布我是细心的,我将撤退到地面,在可以保证成功时我将再返回,酷豆会拜倒在我面前,让世界知道,卡布才是救世主\n
+</string>
+
+<string name="Diary14">
+日志 - 周六 - 阴\n
+\n
+我必须承认,当酷豆选择我去找到源,我很惊讶,真的,我和任何其他研究者一样,研究这个岛屿,但呆在实验室里研究总得不到具体的内容,当酷豆给了我最初的工作,我怀疑我是否能够承担,但现在我知道我是实现成功的唯一男人,这个岛已经不受阻碍的成长了一百年,这种扭曲的生态可以把一个软弱的小逼疯的\n
+\n
+不过,我不能说我完全信任酷豆,他是个聪明人,但我也相信他选择我,是因为他认为我容易控制,前几天碰到的那三个冒险家已经死了,所以间谍的存在是不可能的,然而,这种被监视的感觉一直存在\n
+</string>
+
+<string name="Diary15">
+日志 - 在一起 - 阳光\n
+\n
+有一些事情我必须写下来,\n
+\n
+我杀了那些冒险家,我在他们睡时杀了他们,然后挂在树上,好像他们自杀,这是可怕的事,但必须要做,我需要他们的粮食,特别是他们把电池和手电筒,更重要的是,他们发现的洞穴入口,源太重要了,这样的傻瓜,我是不会冒险让他们可能先发现它
+\n
+我是个怪物？我不认为如此,我是卡布博士,广受尊敬的科学家,我的行动是符合逻辑和合理的,我不是怪物\n
+\n
+如果我对自己诚实,那些冒险家不得不死还有另外一个原因：我想这样做,而且我很喜欢这样做\n,
+</string>
+
+<!-- Misc Dialog -->
+
+<string name="KyleDeadNote">这是凯尔,  他不能动了,</string>
+
+</resources>
